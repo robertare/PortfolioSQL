@@ -215,12 +215,3 @@ JOIN Covidproject..Vaccines vac
 ON dea.location = vac.location
 AND dea.date = vac.date
 WHERE dea.continent is not null
-
--- to drop the above View : DROP VIEW PercentPopulationVaccinated;
-
-
-
-
---GO OVER VIEW FUNCTION and find the above one
----Video 2 
----store in Github, save as Sql file
